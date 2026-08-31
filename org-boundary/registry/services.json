@@ -3,6 +3,18 @@
   "organization": "Data-Continuation",
   "services": [
     {
+      "service_id": "data-continuation.org-control",
+      "repository": "Data-Continuation/.github",
+      "boundary_role": "BOUNDARY_LOCAL_CONTROL",
+      "profile_status": "ACTIVE",
+      "accepts": [
+        "ecosystem.communication",
+        "ecosystem.monitor.request",
+        "ecosystem.work.request"
+      ],
+      "runtime_required_for_consumption": false
+    },
+    {
       "service_id": "data-continuation.boundary-diagnostic",
       "repository": "Data-Continuation/.github",
       "boundary_role": "BOUNDARY_LOCAL_DIAGNOSTIC",
