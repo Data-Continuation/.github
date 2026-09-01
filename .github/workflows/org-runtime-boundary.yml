@@ -4,12 +4,14 @@ on:
   pull_request:
     paths:
       - 'org-runtime/**'
+      - 'resident-runtime/**'
       - 'ORG_RESIDENT_RUNTIME_INTR_BOUNDARY_MIRROR_HANDOFF.md'
       - '.github/workflows/org-runtime-boundary.yml'
   push:
     branches: [main]
     paths:
       - 'org-runtime/**'
+      - 'resident-runtime/**'
       - 'ORG_RESIDENT_RUNTIME_INTR_BOUNDARY_MIRROR_HANDOFF.md'
       - '.github/workflows/org-runtime-boundary.yml'
   workflow_dispatch:
@@ -38,3 +40,9 @@ jobs:
         run: |
           python org-runtime/runtime_boundary.py egress --peer-org validation-peer --interlock-id validation-interlock --payload-sha256 fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210 --transition-elements-ref validation-transition-elements | tee /tmp/egress.json
           python -c 'import json; x=json.load(open("/tmp/egress.json")); assert x["direction"]=="EGRESS"; assert x["protocol"]=="InTr"; assert x["github_token_runtime_authority"]=="NONE"'
+
+      - name: Validate resident boundary executor source
+        run: |
+          python resident-runtime/tests/test_resident_boundary_executor.py
+          tmpdir="$(mktemp -d)"
+          python resident-runtime/resident_boundary_executor.py --state-root "$tmpdir/state" --validate-layout
