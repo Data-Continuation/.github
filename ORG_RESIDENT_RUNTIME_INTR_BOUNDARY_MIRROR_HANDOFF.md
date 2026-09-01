@@ -56,3 +56,28 @@ The Python tool is standard-library-only and can:
 - emit egress envelopes.
 
 It does not activate GitHub as runtime and cannot self-grant authority.
+
+
+## Resident boundary spool executor — 2026-09-01
+
+Issue #5 source implementation is installed through:
+
+```text
+resident-runtime/resident_boundary_executor.py
+resident-runtime/tests/test_resident_boundary_executor.py
+```
+
+The executor maintains local `ingress.d`, `egress.d`, `processed.d`, `failed.d`, and
+`receipts.d` surfaces, consumes at most one ingress packet per cycle, preserves the existing
+Interlock/InTr validation and boundary processor, emits a durable cycle receipt, and moves consumed
+ingress out of the live spool.
+
+Runtime guard:
+
+```text
+GITHUB_ACTIONS=true -> REJECT
+STEGVERSE_RESIDENT_PROCESS != 1 -> REJECT
+```
+
+GitHub Actions validates source behavior only. It does not satisfy resident activation evidence.
+Authentic runtime proof remains separately defined by `org-runtime/activation.json`.
