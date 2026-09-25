@@ -1,0 +1,73 @@
+{
+  "schema": "stegverse.organization-open-source-inventory/v1",
+  "organization": "Data-Continuation",
+  "snapshot_date": "2026-09-25",
+  "canonical_goal": "ECOSYSTEM-OPEN-SOURCE-STRATEGY-001",
+  "canonical_cosv": "20010010100000",
+  "repository_visibility_scope": "All seven repositories returned by org-scoped authenticated GitHub discovery; source-owner internal inventory, not permission to disclose private repository details.",
+  "counts": {
+    "repositories": 7,
+    "public": 4,
+    "private": 2,
+    "internal": 1,
+    "github_spdx_recognized": 0,
+    "github_no_detected_license": 7,
+    "file_level_rights_verified": 0,
+    "copyright_title_verified": 0,
+    "release_authorizations": 0
+  },
+  "repositories": [
+    {
+      "repository": "Data-Continuation/.github",
+      "visibility": "internal",
+      "github_detected_license": null
+    },
+    {
+      "repository": "Data-Continuation/core-lite",
+      "visibility": "public",
+      "github_detected_license": null
+    },
+    {
+      "repository": "Data-Continuation/StegClaw",
+      "visibility": "private",
+      "github_detected_license": null
+    },
+    {
+      "repository": "Data-Continuation/products",
+      "visibility": "private",
+      "github_detected_license": null
+    },
+    {
+      "repository": "Data-Continuation/RTG-Tests",
+      "visibility": "public",
+      "github_detected_license": null
+    },
+    {
+      "repository": "Data-Continuation/formalism-tests",
+      "visibility": "public",
+      "github_detected_license": null
+    },
+    {
+      "repository": "Data-Continuation/formalisms",
+      "visibility": "public",
+      "github_detected_license": null
+    }
+  ],
+  "core_lite_pinned_dependency": {
+    "consumer": "StegVerse-org/StegVerse-SDK",
+    "optional_extra": "governed-test",
+    "referenced_commit": "72bdb0f110031ccc2cd98b8ebb7c22b1ab7326f8",
+    "root_license_at_pinned_commit": "NOT_FOUND",
+    "root_license_at_current_main": "NOT_FOUND",
+    "pyproject_declared_license": "ABSENT",
+    "copyright_chain": "NOT_VERIFIED",
+    "distributable_to_others": "NOT_AUTHORIZED_BY_THIS_AUDIT",
+    "source_audit_ref": "docs/CORE_LITE_PINNED_SOURCE_RIGHTS_AUDIT_20260925.md"
+  },
+  "scope_rules": [
+    "A null GitHub license is a no-detection outcome and does not independently prove no terms exist.",
+    "Root LICENSE absent and pyproject lacks license at the exact pinned commit; file-level grants, historical grants and consent remain open.",
+    "This internal inventory lists accessible source-owner repositories; central public summaries may include aggregate counts only.",
+    "Preserve existing source and governance owners, existing grants and exact commit references; do not introduce a duplicate Goal Task ID/COSV or new open-source grant."
+  ]
+}
