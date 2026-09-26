@@ -1,0 +1,3 @@
+# Data-Continuation organization coordination
+
+Canonical organizational ingress/egress authority remains documented in [`DATA_CONTINUATION_ORG_BOUNDARY_MIRROR_HANDOFF.md`](DATA_CONTINUATION_ORG_BOUNDARY_MIRROR_HANDOFF.md). Separate existing central open-source goal `ECOSYSTEM-OPEN-SOURCE-STRATEGY-001`, COSV `20010010100000`, maintains this organization's bounded [seven-repository metadata inventory](docs/OPEN_SOURCE_ORGANIZATION_INVENTORY_20260925.json) and [pinned Core-Lite rights audit](docs/CORE_LITE_PINNED_SOURCE_RIGHTS_AUDIT_20260925.md). Rights remediation remains with [Core-Lite #34](https://github.com/Data-Continuation/core-lite/issues/34); no publication permission or runtime authority is implied.

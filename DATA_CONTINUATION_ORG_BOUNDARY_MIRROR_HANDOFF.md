@@ -50,3 +50,7 @@ Replace generic INTERNAL_ENDPOINT entries with tighter endpoint-specific profile
 - GitHub Actions may validate or transport evidence, but GitHub-hosted workflow execution is not required as sovereign runtime authority.
 - Canonical implementation paths: `org-boundary/runtime/`, `org-boundary/registry/`, `org-boundary/schemas/`, `org-boundary/evidence/`, `resident-runtime/`.
 - Any legacy resident activation implementation outside `Data-Continuation/.github` becomes an endpoint/provider to this boundary or must be migrated here; it must not remain a competing organizational activation point.
+
+## 2026-09-25 — independent source-only open-source rights follow-up
+
+Parent goal `ECOSYSTEM-OPEN-SOURCE-STRATEGY-001`, COSV `20010010100000`, remains centrally ACTIVE/CHECKED_OUT. This organization retains its already-merged 7/7 metadata inventory. The exact SDK-pinned Core-Lite rights remediation is tracked by [Core-Lite issue #34](https://github.com/Data-Continuation/core-lite/issues/34) and source owner's [draft #35](https://github.com/Data-Continuation/core-lite/pull/35); detail and exact non-ALLOW dispositions are in `docs/CORE_LITE_PINNED_SOURCE_RIGHTS_AUDIT_20260925.md`. Neither source-owner approval nor copyright title or publication approval is yet proven. Return verified, public-safe findings to central mirror handoff only after source-owner review and readback. This paragraph does not alter this organization's existing ingress/egress authority boundary.
