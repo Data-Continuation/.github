@@ -16,6 +16,9 @@ on:
       - 'resident-runtime/**'
       - 'data/intr-protocol/**'
       - 'tests/test_intr_ingress_ledger_component.py'
+      - 'tests/test_self_closure_packet.py'
+      - 'tests/test_organization_ledger_transition_writer.py'
+      - '.github/workflows/organization-ledger-transition.yml'
       - '.github/workflows/intr-ingress-ledger-component-validation.yml'
 
 permissions:
@@ -32,6 +35,9 @@ jobs:
 
       - name: Installed bytes, InTr v1 conformance, ledger designation, self-closure on temporary ledgers
         run: python3 -m unittest tests.test_intr_ingress_ledger_component -v
+
+      - name: "Push-on-packet writer: the committed packet supplies the epoch (no dispatch, no clock; temporary repositories)"
+        run: python3 -m unittest tests.test_self_closure_packet tests.test_organization_ledger_transition_writer -v
 
       - name: "Conformance, read-only: Data-Continuation at data-continuation.intr-destination"
         run: |
