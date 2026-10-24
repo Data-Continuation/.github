@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:Data-Continuation->StegGhost",
+    "destination_organization": "StegGhost",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "Data-Continuation->StegGhost:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "Data-Continuation/.github",
+    "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Data-Continuation",
+  "predecessor_org_state_sha256": "sha256:e2007ca55703e034359eafd0cb3667e03113f0c61fa5e4e6e84d4d275fa5e33c",
+  "previous_receipt_sha256": "sha256:0965a6f8d41ce6672765475a447dfc11859f149726dc1143b486cc14e02225a2",
+  "receipt_sha256": "sha256:048c032609aa65969e0569b9b00bacf51d4302c022df134c9782733cdda5c998",
+  "repo_receipt_sha256": "sha256:7087078d56e127f4f0c0031bcbe3f3f898362971ca19e5cc5e98f08f8c148e96",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->StegGhost:intr-destination@intr-path-v1:Data-Continuation->StegGhost",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Data-Continuation/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->StegGhost:intr-destination@intr-path-v1:Data-Continuation->StegGhost",
+  "source_transition_sha256": "sha256:7087078d56e127f4f0c0031bcbe3f3f898362971ca19e5cc5e98f08f8c148e96",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:a8187847efde6f0c08d0888165c2c85db681b7d9dc59a981de1dea1c6c75b0e1"
+}
