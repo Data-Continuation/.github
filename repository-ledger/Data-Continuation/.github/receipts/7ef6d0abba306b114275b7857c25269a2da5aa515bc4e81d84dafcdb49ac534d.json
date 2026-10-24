@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Data-Continuation->GCAT-BCAT-Engine",
+    "destination_address": "gcat-bcat-engine.intr-destination",
+    "destination_organization": "GCAT-BCAT-Engine",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:c4472e43825be4f695dfaebeb6f0a0cd8925a0ef745b520212d95d52087e58f3",
+    "message": {
+      "body": {
+        "path_id": "Data-Continuation->GCAT-BCAT-Engine:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+      },
+      "communication_id": "intr-path-v1:Data-Continuation->GCAT-BCAT-Engine",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:a31fc299ca0d1e83a61e1348648bfce55dad2ccb268248857d892c3f385891e8",
+    "path_id": "Data-Continuation->GCAT-BCAT-Engine:intr-destination",
+    "payload_sha256": "sha256:b10210bb8c9c36ebc08369f75a2413f7b48ff5129ac2227097092883dbbaeafe",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Data-Continuation",
+    "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:b10210bb8c9c36ebc08369f75a2413f7b48ff5129ac2227097092883dbbaeafe",
+  "previous_receipt_sha256": "sha256:05d75d5700f8ba8d711e27b2e38f6960a890be28163fe4e59d52414c27f18c5c",
+  "receipt_sha256": "sha256:7ef6d0abba306b114275b7857c25269a2da5aa515bc4e81d84dafcdb49ac534d",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:e21252c70fe6866332213d2a495b290e4c83bc21461f12dca0c45e3893000098",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->GCAT-BCAT-Engine:intr-destination@intr-path-v1:Data-Continuation->GCAT-BCAT-Engine"
+}
