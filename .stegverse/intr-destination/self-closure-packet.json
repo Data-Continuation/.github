@@ -1,0 +1,6 @@
+{
+  "schema": "stegverse.intr-destination-self-closure-packet/v1",
+  "communication_id": "data-continuation-hb-supplied-001",
+  "packet_id": "data-continuation-intr-destination-self-closure-hb-001",
+  "hb_epoch": 469411750
+}
