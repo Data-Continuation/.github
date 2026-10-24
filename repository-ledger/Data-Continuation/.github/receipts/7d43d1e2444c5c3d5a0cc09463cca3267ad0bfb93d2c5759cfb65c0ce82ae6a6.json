@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "data-continuation.intr-destination",
+    "communication_id": "intr-path-v1:Triad-Test->Data-Continuation",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "Triad-Test->Data-Continuation:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "d22d0dca97d5f33e1e7101dca13fcf5d0422145f"
+      },
+      "communication_id": "intr-path-v1:Triad-Test->Data-Continuation",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:fbf510e188b52592c9e7c7ef074c82dd6760c8359dc48c8db51c604b9844067c",
+    "path_id": "Triad-Test->Data-Continuation:intr-destination",
+    "payload_sha256": "sha256:1aa5ed8dc640450ea09529129993e5e19f76346e128f5e23b9eb6c43fb2a5eed",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "520c6ee2d77c1dc3cf6397f145cf76a420ecc8e3",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:d9d4c157c4332256565811cee63b902244817906133897467f6a9880f90e646a",
+    "source_repository": "Triad-Test/.github",
+    "source_repository_receipt_sha256": "sha256:c6d02a7070705b24c02dcd9ee15f31a9e78ad9907d8e2f49cf25d229b9e7cf18"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:1aa5ed8dc640450ea09529129993e5e19f76346e128f5e23b9eb6c43fb2a5eed",
+  "previous_receipt_sha256": "sha256:4d5204dc25a8d4af19f1312772f2dc296e9a1aeb14d4b360756f797f54955e54",
+  "receipt_sha256": "sha256:7d43d1e2444c5c3d5a0cc09463cca3267ad0bfb93d2c5759cfb65c0ce82ae6a6",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:abef04e6c4489f8c2d4d0109e11fed1afde158ff73d33bd88e2c6e44098e9372",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:Triad-Test->Data-Continuation:intr-destination@intr-path-v1:Triad-Test->Data-Continuation"
+}
