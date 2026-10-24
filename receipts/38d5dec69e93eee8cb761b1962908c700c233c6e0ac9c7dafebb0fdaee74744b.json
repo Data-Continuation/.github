@@ -1,0 +1,34 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "data-continuation-hb-supplied-001",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "profile_id": "intr-destination"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Data-Continuation",
+  "predecessor_org_state_sha256": "sha256:25db0782b5a04eda3d14e0e5401b40c19cdb3991d7e0fdff466512fb4e416dcf",
+  "previous_receipt_sha256": null,
+  "receipt_sha256": "sha256:38d5dec69e93eee8cb761b1962908c700c233c6e0ac9c7dafebb0fdaee74744b",
+  "repo_receipt_sha256": "sha256:ce1c4e822196e3148af2da051f5f103778f8f8e94d2f76981a2a877695211875",
+  "repo_transition_id": "ORGANIZATION_INTR_DESTINATION_INGRESS:data-continuation-intr-destination-self-closure-hb-001",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Data-Continuation/.github",
+  "source_transition_id": "ORGANIZATION_INTR_DESTINATION_INGRESS:data-continuation-intr-destination-self-closure-hb-001",
+  "source_transition_sha256": "sha256:ce1c4e822196e3148af2da051f5f103778f8f8e94d2f76981a2a877695211875",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:d7a6a6562c11798cd24b73d2e835e39f9a373f652ae478fcdea87d06b58fd6ba"
+}
