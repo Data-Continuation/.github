@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Data-Continuation->StegGhost",
+    "destination_address": "stegghost.intr-destination",
+    "destination_organization": "StegGhost",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:c4472e43825be4f695dfaebeb6f0a0cd8925a0ef745b520212d95d52087e58f3",
+    "message": {
+      "body": {
+        "path_id": "Data-Continuation->StegGhost:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+      },
+      "communication_id": "intr-path-v1:Data-Continuation->StegGhost",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:ce785e667d1fbe9d330e7841ceeb045dbe00a4baa2620f028ba66c761df039dc",
+    "path_id": "Data-Continuation->StegGhost:intr-destination",
+    "payload_sha256": "sha256:e2007ca55703e034359eafd0cb3667e03113f0c61fa5e4e6e84d4d275fa5e33c",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Data-Continuation",
+    "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:e2007ca55703e034359eafd0cb3667e03113f0c61fa5e4e6e84d4d275fa5e33c",
+  "previous_receipt_sha256": "sha256:627e32baa4480c072550ebf52e8cc864cd8a59b02d89835584a106c976e3c06d",
+  "receipt_sha256": "sha256:7087078d56e127f4f0c0031bcbe3f3f898362971ca19e5cc5e98f08f8c148e96",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:a8187847efde6f0c08d0888165c2c85db681b7d9dc59a981de1dea1c6c75b0e1",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->StegGhost:intr-destination@intr-path-v1:Data-Continuation->StegGhost"
+}
