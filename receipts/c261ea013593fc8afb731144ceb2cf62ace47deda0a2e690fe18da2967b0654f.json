@@ -1,0 +1,36 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "main-merge-transfer:Data-Continuation/.github@ae0d8a134123d28523af90e6d855e456bcc145c1",
+    "disposition": "ALLOW",
+    "merge_commit": "ae0d8a134123d28523af90e6d855e456bcc145c1",
+    "operation": "ORGANIZATION_MAIN_MERGE_TRANSFER",
+    "profile_id": "main-merge-transfer",
+    "repository": "Data-Continuation/.github"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Data-Continuation",
+  "predecessor_org_state_sha256": "sha256:2a4418a9f6bfa956ea8f389648ad86eeafa15a50d32f5cef9fb07c69c5330c8c",
+  "previous_receipt_sha256": "sha256:38d5dec69e93eee8cb761b1962908c700c233c6e0ac9c7dafebb0fdaee74744b",
+  "receipt_sha256": "sha256:c261ea013593fc8afb731144ceb2cf62ace47deda0a2e690fe18da2967b0654f",
+  "repo_receipt_sha256": "sha256:c998505bb8967a2fa04b4d7a3bb8770c3cea8a2e283cfa5fd5bb345e203e53e6",
+  "repo_transition_id": "ORGANIZATION_MAIN_MERGE_TRANSFER:ae0d8a134123d28523af90e6d855e456bcc145c1",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Data-Continuation/.github",
+  "source_transition_id": "ORGANIZATION_MAIN_MERGE_TRANSFER:ae0d8a134123d28523af90e6d855e456bcc145c1",
+  "source_transition_sha256": "sha256:c998505bb8967a2fa04b4d7a3bb8770c3cea8a2e283cfa5fd5bb345e203e53e6",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:e4feb1323e63485409da8fa23573b7c52827fbebe44d7dc6fb360296e4b5c4e6"
+}
