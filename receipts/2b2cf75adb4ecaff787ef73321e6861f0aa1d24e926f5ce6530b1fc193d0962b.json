@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:Admissible-Existence->Data-Continuation",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "Admissible-Existence->Data-Continuation:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:3e6ac1d7f849f005d5d1f580949a21157273c305f6ab8ca2487fc876b858f9f4",
+    "source_repository": "Admissible-Existence/.github",
+    "source_repository_receipt_sha256": "sha256:7a75b4bacb5f806f7945b5835b4d27337dc3c83e181f5bf40f32a2e7f94b3927"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Data-Continuation",
+  "predecessor_org_state_sha256": "sha256:4d55a9edac901164ed8c0ea9a8a7b69fd249a7d18691c7fb704682a87ee2b444",
+  "previous_receipt_sha256": "sha256:f245ca1a9da9c174005e0b510cab948217c915805019029ddbe7ab6e8dd31e61",
+  "receipt_sha256": "sha256:2b2cf75adb4ecaff787ef73321e6861f0aa1d24e926f5ce6530b1fc193d0962b",
+  "repo_receipt_sha256": "sha256:b1b58d4a49c94a4bf10da6fcbad5fd29d731dc75a584c2f6b76fbf421bcfd55a",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:Admissible-Existence->Data-Continuation:intr-destination@intr-path-v1:Admissible-Existence->Data-Continuation",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Data-Continuation/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:Admissible-Existence->Data-Continuation:intr-destination@intr-path-v1:Admissible-Existence->Data-Continuation",
+  "source_transition_sha256": "sha256:b1b58d4a49c94a4bf10da6fcbad5fd29d731dc75a584c2f6b76fbf421bcfd55a",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:d0b2b4221f5acca64ed695a2e7dc94e8b51ff11ac68e8bf51ab918de309f1844"
+}
