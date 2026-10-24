@@ -31,7 +31,10 @@ STEPS = ("Bind the designated organization ledger ref and the repository ledger 
          "Perform the intr-destination diagnostic self-closure")
 GIT_ENV = {"GIT_AUTHOR_NAME": "t", "GIT_AUTHOR_EMAIL": "t@example.invalid", "GIT_COMMITTER_NAME": "t",
            "GIT_COMMITTER_EMAIL": "t@example.invalid", "GIT_AUTHOR_DATE": "2000-01-01T00:00:00Z",
-           "GIT_COMMITTER_DATE": "2000-01-01T00:00:00Z", "GIT_CONFIG_NOSYSTEM": "1"}
+           "GIT_COMMITTER_DATE": "2000-01-01T00:00:00Z", "GIT_CONFIG_NOSYSTEM": "1",
+           # No detached auto-gc or maintenance may still be writing .git when the temp dir is removed.
+           "GIT_CONFIG_COUNT": "2", "GIT_CONFIG_KEY_0": "gc.auto", "GIT_CONFIG_VALUE_0": "0",
+           "GIT_CONFIG_KEY_1": "maintenance.auto", "GIT_CONFIG_VALUE_1": "false"}
 
 
 def step_script(name: str) -> str:
