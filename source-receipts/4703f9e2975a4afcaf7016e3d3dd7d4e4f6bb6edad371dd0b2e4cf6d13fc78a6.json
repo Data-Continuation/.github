@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Data-Continuation->StegVerse-002",
+    "destination_address": "stegverse-002.intr-destination",
+    "destination_organization": "StegVerse-002",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:c4472e43825be4f695dfaebeb6f0a0cd8925a0ef745b520212d95d52087e58f3",
+    "message": {
+      "body": {
+        "path_id": "Data-Continuation->StegVerse-002:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+      },
+      "communication_id": "intr-path-v1:Data-Continuation->StegVerse-002",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:ee15fd10a0774b6e82873e7674f8f4740eb0899781f0cc65d13746b97864284d",
+    "path_id": "Data-Continuation->StegVerse-002:intr-destination",
+    "payload_sha256": "sha256:60b372c1eb0829c6b82dccad28a5dfd5e6e07ef224de14dc6ef3b29ea4eac62c",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Data-Continuation",
+    "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:60b372c1eb0829c6b82dccad28a5dfd5e6e07ef224de14dc6ef3b29ea4eac62c",
+  "previous_receipt_sha256": "sha256:7087078d56e127f4f0c0031bcbe3f3f898362971ca19e5cc5e98f08f8c148e96",
+  "receipt_sha256": "sha256:4703f9e2975a4afcaf7016e3d3dd7d4e4f6bb6edad371dd0b2e4cf6d13fc78a6",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:0c4fae1e84d8a18badbaa10486c8abcd0631a0542525419ea56230086a68a810",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->StegVerse-002:intr-destination@intr-path-v1:Data-Continuation->StegVerse-002"
+}
