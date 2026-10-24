@@ -1,0 +1,55 @@
+{
+  "schema": "stegverse.intr-path-transfer-declaration/v1",
+  "source_repository": "Data-Continuation/.github",
+  "rule": "Each row declares one InTr transfer over a declared mesh path whose source is this organization. Landing a row on main is the transition: after that push's main-merge transfer is ledgered, .github/workflows/intr-path-transfer.yml appends the path's source receipt, linked to that main-merge transfer receipt. A row already ledgered is answered from the ledger. No dispatch.",
+  "transfers": [
+    {
+      "path_id": "Data-Continuation->AaCT-E:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->AaCT-E"
+    },
+    {
+      "path_id": "Data-Continuation->Admissible-Existence:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->Admissible-Existence"
+    },
+    {
+      "path_id": "Data-Continuation->AdmittedCode:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->AdmittedCode"
+    },
+    {
+      "path_id": "Data-Continuation->ECAT-ICAT-Formal:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->ECAT-ICAT-Formal"
+    },
+    {
+      "path_id": "Data-Continuation->GCAT-BCAT-Engine:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->GCAT-BCAT-Engine"
+    },
+    {
+      "path_id": "Data-Continuation->SV-011:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->SV-011"
+    },
+    {
+      "path_id": "Data-Continuation->SV-LLM:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->SV-LLM"
+    },
+    {
+      "path_id": "Data-Continuation->StegGhost:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->StegGhost"
+    },
+    {
+      "path_id": "Data-Continuation->StegVerse-002:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->StegVerse-002"
+    },
+    {
+      "path_id": "Data-Continuation->StegVerse-Labs:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->StegVerse-Labs"
+    },
+    {
+      "path_id": "Data-Continuation->StegVerse-org:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->StegVerse-org"
+    },
+    {
+      "path_id": "Data-Continuation->Triad-Test:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->Triad-Test"
+    }
+  ]
+}
