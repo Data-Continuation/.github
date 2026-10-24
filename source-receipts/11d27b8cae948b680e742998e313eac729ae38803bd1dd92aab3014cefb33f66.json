@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Data-Continuation->Triad-Test",
+    "destination_address": "triad-test.intr-destination",
+    "destination_organization": "Triad-Test",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:c4472e43825be4f695dfaebeb6f0a0cd8925a0ef745b520212d95d52087e58f3",
+    "message": {
+      "body": {
+        "path_id": "Data-Continuation->Triad-Test:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+      },
+      "communication_id": "intr-path-v1:Data-Continuation->Triad-Test",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:31f458c042ccb1110f7c574124a0b056fc1a146ac7f223ee7de7b601981afd1e",
+    "path_id": "Data-Continuation->Triad-Test:intr-destination",
+    "payload_sha256": "sha256:89c17c4e7070833e15a4010e3d69ba0176286a19cd985d15646b8d3bbdd34cd6",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Data-Continuation",
+    "transfer_commit": "5f3eb41d8ad80dcc8e13e60aeebdf661866b5eec"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:89c17c4e7070833e15a4010e3d69ba0176286a19cd985d15646b8d3bbdd34cd6",
+  "previous_receipt_sha256": "sha256:31b01c2551999f97e337dc6278a847b889384eeb7f3f7182bdea07258fc39617",
+  "receipt_sha256": "sha256:11d27b8cae948b680e742998e313eac729ae38803bd1dd92aab3014cefb33f66",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:9df519e6d751a0df7e95ffaaab5377f180fc6651f640f349cf3ea458198efe73",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->Triad-Test:intr-destination@intr-path-v1:Data-Continuation->Triad-Test"
+}
