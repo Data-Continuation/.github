@@ -3,7 +3,8 @@ components/intr-ingress-ledger/v1 (goal StegVerse-org/.github#162).
 
 Ledgers here are temporary directories: receipts written by these tests are NOT
 LEDGERED and NOT AUTHENTIC. The published ref refs/stegverse/organization-ledger
-is opened only by .github/workflows/organization-ledger-transition.yml.
+is opened only by .github/workflows/organization-ledger-writer.yml (the self-closure
+carrier organization-ledger-transition.yml is retired: no InTr hop inside one organization).
 """
 from __future__ import annotations
 
