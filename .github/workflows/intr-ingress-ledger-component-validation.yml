@@ -16,9 +16,7 @@ on:
       - 'resident-runtime/**'
       - 'data/intr-protocol/**'
       - 'tests/test_intr_ingress_ledger_component.py'
-      - 'tests/test_self_closure_packet.py'
-      - 'tests/test_organization_ledger_transition_writer.py'
-      - '.github/workflows/organization-ledger-transition.yml'
+      - 'tests/test_no_org_internal_intr_hop.py'
       - '.github/workflows/intr-ingress-ledger-component-validation.yml'
 
 permissions:
@@ -33,11 +31,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Installed bytes, InTr v1 conformance, ledger designation, self-closure on temporary ledgers
+      - name: Installed bytes, InTr v1 conformance, ledger designation, ingress on temporary ledgers
         run: python3 -m unittest tests.test_intr_ingress_ledger_component -v
 
-      - name: "Push-on-packet writer: the committed packet supplies the epoch (no dispatch, no clock; temporary repositories)"
-        run: python3 -m unittest tests.test_self_closure_packet tests.test_organization_ledger_transition_writer -v
+      - name: "No InTr hop inside this organization: the self-closure carrier is retired (Rigel's rule, 2026-10-25)"
+        run: python3 -m unittest tests.test_no_org_internal_intr_hop -v
 
       - name: "Conformance, read-only: Data-Continuation at data-continuation.intr-destination"
         run: |
