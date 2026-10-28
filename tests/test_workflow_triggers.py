@@ -15,8 +15,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WORKFLOWS = ROOT / ".github/workflows"
 
-# Surfaces owned by another lane (Grok Lane B, commit 14c028c); handed off, not edited here.
-ALLOWLIST = {"organization-ledger-transition.yml"}
+# Surfaces owned by another lane, handed off, not edited here. Empty: Grok Lane B's
+# organization-ledger-transition.yml (commit 14c028c) is retired on main.
+ALLOWLIST: set[str] = set()
 
 FORBIDDEN = ("workflow_dispatch", "schedule")
 KEY = re.compile(r"^\s*(?:-\s*)?['\"]?(%s)['\"]?\s*:" % "|".join(FORBIDDEN))
