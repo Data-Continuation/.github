@@ -22,7 +22,7 @@ def validate()->dict[str,Any]:
     checks={
       "activation_owner":a.get("organization")==ORG and a.get("owner_repository")==f"{ORG}/.github",
       "activation_local":a.get("activation_source_scope")=="ORG_DOT_GITHUB_ONLY",
-      "runtime_sovereign":a.get("runtime_execution_surface")=="SOVEREIGN_RESIDENT_PROCESS",
+      "runtime_transition_bound":a.get("runtime_execution_surface")=="COMMITTED_TRANSITION_CYCLE",
       "transport_owner":t.get("organization")==ORG and t.get("owner_repository")==f"{ORG}/.github",
       "all_io_here":t.get("communication_policy")=="ALL_ORGANIZATION_INGRESS_EGRESS_GENERATED_AT_ORG_DOT_GITHUB_BOUNDARY",
       "tvtvc":a.get("credential_authority")=="TV/TVC" and t.get("credential_authority")=="TV/TVC",

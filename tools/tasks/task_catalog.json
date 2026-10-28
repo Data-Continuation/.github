@@ -275,6 +275,29 @@
     "timeout_minutes": 10,
     "python_version": "3.11"
    }
+  },
+  {
+   "id": "workflow-triggers.validate",
+   "catalog_addition": "No manual or scheduled trigger on a workflow file (tests/test_workflow_triggers.py; no folded source workflow)",
+   "events": [
+    "pull_request",
+    "push"
+   ],
+   "env": {},
+   "steps": [
+    {
+     "name": "No workflow_dispatch or schedule trigger on .github/workflows",
+     "run_file": "tools/tasks/steps/workflow-triggers.validate/01-triggers.sh",
+     "run_sha256": "7bb9ecc8874872742fb77c019ab9a560a529ec5ee3c46252021e488313abfa08"
+    }
+   ],
+   "artifacts": [],
+   "runner": {
+    "fetch_depth": "1",
+    "persist_credentials": "false",
+    "timeout_minutes": 10,
+    "python_version": "3.11"
+   }
   }
  ]
 }

@@ -20,7 +20,7 @@ All cross-organization communication must cross this boundary as an Interlock/In
 
 ## Runtime boundary
 
-Activation source is kept inside this organization `.github`. Authentic execution remains a sovereign resident process; GitHub and GitHub Actions are source/evidence/validation surfaces only.
+Activation source is kept inside this organization `.github`. Execution is a committed-transition cycle: one run per committed request, with no always-on receiver and no external machine awaited (B-P40). GitHub and GitHub Actions are source/evidence/validation surfaces only.
 
 ```text
 source/merge/CI != resident activation
