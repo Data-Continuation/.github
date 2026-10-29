@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Data-Continuation->Infrastructure-Continuity-Ventures",
+    "destination_address": "infrastructure-continuity-ventures.intr-destination",
+    "destination_organization": "Infrastructure-Continuity-Ventures",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:f3c6b151044a9fc161118c65062fd67fdb28ad82579f3668b0766b3616ff87b8",
+    "message": {
+      "body": {
+        "path_id": "Data-Continuation->Infrastructure-Continuity-Ventures:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "75bff0a0d548b76a67a00fb21898a4667d82ff27"
+      },
+      "communication_id": "intr-path-v1:Data-Continuation->Infrastructure-Continuity-Ventures",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:707159098e1b5106c377cae465da838a943cc9b5567e078e29ca2a9e795b3888",
+    "path_id": "Data-Continuation->Infrastructure-Continuity-Ventures:intr-destination",
+    "payload_sha256": "sha256:568528063c17c240aaa4d76bc68abf53bc20348e01a21b9de8e198e612043991",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Data-Continuation",
+    "transfer_commit": "75bff0a0d548b76a67a00fb21898a4667d82ff27"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:568528063c17c240aaa4d76bc68abf53bc20348e01a21b9de8e198e612043991",
+  "previous_receipt_sha256": "sha256:5d769e1bfa5b77ef39422acb221e3bfb5d07cbcf79d06466dd454b7a102b048b",
+  "receipt_sha256": "sha256:bf8bc0ac3259f6571a5270b4e56e6659bbe4e038cd5ce764eec55640d5b29321",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:4f0654b0718124deb333ae2933320f57375c88a77059cb72bfdcfa0879731c5c",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->Infrastructure-Continuity-Ventures:intr-destination@intr-path-v1:Data-Continuation->Infrastructure-Continuity-Ventures"
+}
