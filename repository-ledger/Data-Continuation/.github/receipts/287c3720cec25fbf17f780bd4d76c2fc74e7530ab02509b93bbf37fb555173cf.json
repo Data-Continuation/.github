@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Data-Continuation->formalism-tests",
+    "destination_address": "formalism-tests.intr-destination",
+    "destination_organization": "formalism-tests",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:f3c6b151044a9fc161118c65062fd67fdb28ad82579f3668b0766b3616ff87b8",
+    "message": {
+      "body": {
+        "path_id": "Data-Continuation->formalism-tests:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "75bff0a0d548b76a67a00fb21898a4667d82ff27"
+      },
+      "communication_id": "intr-path-v1:Data-Continuation->formalism-tests",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:57bf584ca9e94f83376d16e81ac2cc01a79d9c9649e15381e40de4238a2f698f",
+    "path_id": "Data-Continuation->formalism-tests:intr-destination",
+    "payload_sha256": "sha256:d382c8bdc0020bc3bd5ba5807ef947237058dd192b6506316e5396b7506ef043",
+    "repository": "Data-Continuation/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Data-Continuation",
+    "transfer_commit": "75bff0a0d548b76a67a00fb21898a4667d82ff27"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:d382c8bdc0020bc3bd5ba5807ef947237058dd192b6506316e5396b7506ef043",
+  "previous_receipt_sha256": "sha256:bf8bc0ac3259f6571a5270b4e56e6659bbe4e038cd5ce764eec55640d5b29321",
+  "receipt_sha256": "sha256:287c3720cec25fbf17f780bd4d76c2fc74e7530ab02509b93bbf37fb555173cf",
+  "repository": "Data-Continuation/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:366e35579a07e75ba4d77689546c2172a840e04c72e55cd57eecdbed69ea382a",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Data-Continuation->formalism-tests:intr-destination@intr-path-v1:Data-Continuation->formalism-tests"
+}
