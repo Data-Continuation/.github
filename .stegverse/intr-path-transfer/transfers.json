@@ -24,6 +24,10 @@
       "communication_id": "intr-path-v1:Data-Continuation->GCAT-BCAT-Engine"
     },
     {
+      "path_id": "Data-Continuation->Infrastructure-Continuity-Ventures:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->Infrastructure-Continuity-Ventures"
+    },
+    {
       "path_id": "Data-Continuation->SV-011:intr-destination",
       "communication_id": "intr-path-v1:Data-Continuation->SV-011"
     },
@@ -50,6 +54,14 @@
     {
       "path_id": "Data-Continuation->Triad-Test:intr-destination",
       "communication_id": "intr-path-v1:Data-Continuation->Triad-Test"
+    },
+    {
+      "path_id": "Data-Continuation->formalism-tests:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->formalism-tests"
+    },
+    {
+      "path_id": "Data-Continuation->master-records:intr-destination",
+      "communication_id": "intr-path-v1:Data-Continuation->master-records"
     }
   ]
 }
